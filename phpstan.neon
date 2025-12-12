@@ -1,0 +1,13 @@
+parameters:
+    # Niveau d'analyse (0 = très permissif, 9 = ultra strict)
+    level: 5
+
+    # Dossiers analysés
+    paths:
+        - src
+
+    # On exclut tout ce qui ne nous intéresse pas pour l'analyse
+    excludePaths:
+        - src/View
+        - tests
+        - vendor

@@ -1,0 +1,19 @@
+{
+  "name": "devoir_touche_pas_au_klaxon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Devoir PHP MVC - Touche pas au klaxon",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "sass assets/scss/app.scss public/css/app.css --style=compressed --no-source-map",
+    "watch:css": "sass assets/scss/app.scss public/css/app.css --watch",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.96.0"
+  }
+}

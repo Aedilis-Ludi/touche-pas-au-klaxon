@@ -1,0 +1,115 @@
+// ======================
+// IMPORT DES VARIABLES
+// ======================
+@use 'variables';
+
+// ======================
+// GLOBAL
+// ======================
+
+body {
+    background-color: variables.$white;
+    color: variables.$grey;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: variables.$blue2;
+}
+
+// ======================
+// HEADER
+// ======================
+
+header {
+    background-color: variables.$blue2;
+    padding: 1rem;
+}
+
+.navbar .nav-link {
+    color: variables.$white;
+}
+
+.navbar .nav-link:hover {
+    color: variables.$blue1;
+}
+
+// ======================
+// BOUTONS
+// ======================
+
+.btn-primary {
+    background-color: variables.$blue1;
+    border-color: variables.$blue1;
+}
+
+.btn-primary:hover {
+    background-color: variables.$blue2;
+    border-color: variables.$blue2;
+}
+
+.btn-danger {
+    background-color: variables.$red;
+    border-color: variables.$red;
+}
+
+.btn-success {
+    background-color: variables.$green;
+    border-color: variables.$green;
+}
+
+.btn-secondary {
+    background-color: variables.$grey;
+    border-color: variables.$grey;
+    color: variables.$white;
+}
+
+// ======================
+// TABLEAUX
+// ======================
+
+.table thead {
+    background-color: variables.$blue2;
+    color: variables.$white;
+}
+
+.table tbody tr:hover {
+    background-color: variables.$blue1;
+    color: variables.$white;
+}
+
+// Badges
+.badge-dispo {
+    background-color: variables.$green;
+    color: variables.$white;
+}
+
+.badge-complet {
+    background-color: variables.$red;
+    color: variables.$white;
+}
+
+// ======================
+// MODALES
+// ======================
+
+.modal-header {
+    background-color: variables.$blue1;
+    color: variables.$white;
+}
+
+.modal-footer {
+    background-color: variables.$blue2;
+    color: variables.$white;
+}
+
+// ======================
+// FOOTER
+// ======================
+
+footer {
+    background-color: variables.$grey;
+    color: variables.$white;
+    padding: 1rem;
+    text-align: center;
+}
